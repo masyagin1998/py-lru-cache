@@ -1,9 +1,9 @@
 # py-lru-cache
 
-`py-lru-cache` is a lightweight Python library providing efficient caching mechanisms through an LRU (Least Recently Used) cache. The package includes:
+`py-lru-cache` is a lightweight Python library providing efficient caching mechanisms through an LRU (Least Recently Used) cache (in fact just a copy-n-paste of some CPython sources). The package includes:
 
 - `lru_cache`: A decorator for caching function calls with LRU strategy.
-- `cache`: A standalone LRU cache class for direct use.
+- `cache`: A decorator over `lru_cache` one without any size limit.
 
 ## Features
 - Efficient caching mechanism using an LRU strategy.
